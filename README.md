@@ -3,6 +3,14 @@ This project predicts a person’s age and emotion from their voice recording. I
 If the speaker is male and aged above 60, the system classifies their emotion (Happy, Sad, Angry, Neutral, or Surprised). For those under 60, it only predicts age.
 The system includes an interactive Streamlit GUI that allows users to upload audio files and instantly view results.
 
+📦 Model Downloads
+Due to file size limits, the trained models are hosted on Google Drive:
+👉 [Download Hair Length Model]
+👉 [Download Age & Gender Model]
+https://drive.google.com/drive/folders/1EyQWxX5bvyfAYLLzZpmFf_7jS04Wpdqn?usp=sharing
+After downloading, place them in the /models folder.
+
+
 ⚙️ Features
 • Predicts age from voice using a regression-based ML model.
 • Detects emotion for senior males using a multi-class classification model.
